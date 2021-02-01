@@ -4310,10 +4310,10 @@ a.logo.vertical_logo img {
 .breadcrumbs_section.parallax {
   background-image: url(../images/parallax/breadcrumbs.jpg);
 }
-
-#comingsoon1 {
+/*suppression de l'arriére */
+/*#comingsoon1 {
   background-image: url(../images/parallax/centre-formation-tunis.jpg);
-}
+}*/
 
 #comingsoon2 {
   background-image: url(../images/parallax/comingsoon2.jpg);
