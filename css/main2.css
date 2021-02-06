@@ -9545,3 +9545,9 @@ isotope portfolio
 .just {
   text-align: justify;
 }
+.container input {
+  background-color: #ffffff;
+ }
+.container textarea {
+  background-color: #ffffff;
+}
