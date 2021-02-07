@@ -431,25 +431,34 @@
           <div class="container">
             <form>
               <div class="col-md-6">
-                <label class="form-label">Nom</label>
+                <label class="form-label">Nom *</label>
                 <input type="email" class="form-control" style="color: black;"/>
               </div>
               <div class="col-md-6">
-                <label class="form-label">prénom</label>
+                <label class="form-label">prénom *</label>
                 <input type="text" class="form-control" style="color: black;"/>
               </div>
               <div class="col-md-12">
-                <label class="form-label">Email</label>
+                <label class="form-label">Email *</label>
                 <input type="email" class="form-control" style="color: black;"/>
               </div>
               <div class="col-md-12">
-                <label class="form-label">Message</label>
+                <label class="form-label">Message *</label>
                 <textarea class="form-control" style="color: black;" placeholder="Tapez vos message"></textarea>
               </div>
-              <br />
+              <div class="col-md-4">
+                  <div class="champ">code</div>
+                  <input class="form-label" style="width: 120px;"/>
+              </div>
+              <div class="col-md-4">
+                  <div class="champ">Retaper le code</div>
+                  <input class="form-label" style="width: 120px;"/>
+              </div>
               <div class="col-md-12">
                 <button type="submit" class="btn btn-danger">envoyer</button>
               </div>
+            <p class="champ">(*) champ obligatoire</p>
+
             </form>
           </div>
         </section>
